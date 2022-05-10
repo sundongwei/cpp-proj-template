@@ -33,8 +33,8 @@ link_sys       := stdc++ dl
 link_librarys  := $(link_opencv) $(link_cuda) $(link_sys)
 
 # 定义cuda和opencv的库路径
-lean_cuda      := /data/sxai/lean/cuda-10.2
-lean_opencv    := /data/sxai/lean/opencv4.2.0
+lean_cuda      := /usr/local/cuda-11.4
+lean_opencv    := /usr
 
 # 定义头文件路径，请注意斜杠后边不能有空格
 # 只需要写路径，不需要写-I

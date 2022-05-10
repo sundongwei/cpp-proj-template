@@ -4,14 +4,17 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/data/sxai/lean/cuda-10.2/include/**",
-                "/data/sxai/lean/opencv4.2.0/include/opencv4/**"
+                "/usr/local/cuda-11.4/include/**",
+                "/usr/include/opencv4/**"
             ],
-            "defines": ["PROD=\"sxai\""],
+            "defines": [
+                "PROD=\"sxai\""
+            ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
             "cppStandard": "gnu++11",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4
