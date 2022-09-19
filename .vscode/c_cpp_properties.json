@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/local/cuda-11.4/include/**",
-                "/usr/include/opencv4/**"
+                "/usr/local/include/opencv4/**"
             ],
             "defines": [
                 "PROD=\"sxai\""
